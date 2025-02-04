@@ -1,11 +1,25 @@
 ## Prosper_Loan_Data_Analysis
 
-#### The Prosper loan dataset comprises of 113937 loan entries with 81 attributes on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, and many others, from the year 2009-2014. 
+### Situation:
 
-There are two main categories:
+The project focuses on exploring and analyzing the Prosper loan dataset, which includes 113,937 loan entries with 81 attributes per loan. The dataset contains information such as loan amount, borrower rate, current loan status, borrower income.
 
-Borrower information: Basic attributes of the borrowers such as annual income, condition of employment, interest rate, loan status.
+### Task:
 
-Loan performance information: Metrics evaluating the risk associated with the loans such as Prosper score and bank card utilization.
+The goal is to conduct a comprehensive analysis of the dataset to identify patterns, trends, and insights. This involves cleaning the data, handling missing values, and creating visualizations to present findings effectively.
 
-There were some elements that need to be fixed, in order to create interesting and trustworthy analyses and visualizations.
+### Action:
+
+Imported necessary libraries for data manipulation and visualization.
+Loaded the dataset into a DataFrame and explored its structure.
+Cleaned the data by checking for duplicates and handling missing values.
+Performed univariate analyses to understand the distribution of key variables like Borrower Rate and Borrower APR.
+Created visualizations to illustrate the distribution of loan listings by state, borrower rate, and APR.
+
+### Result:
+
+The analysis revealed important insights, such as the distribution of borrower rates and APR, and highlighted the states with the highest number of loan listings. These findings help in understanding the characteristics of the loans and the risk associated with them, which can be useful for making data-driven decisions.
+
+### Reflection:
+
+The project successfully analyzed the Prosper loan dataset and provided valuable insights. Future steps could include performing multivariate analyses to explore relationships between variables and using machine learning models to predict loan performance based on borrower information.
